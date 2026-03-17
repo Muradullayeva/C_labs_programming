@@ -1,0 +1,3 @@
+/Users/muradullayevasevinch/CLionProjects/lab2CCC/cmake-build-debug/CMakeFiles/lab2CCC.dir
+/Users/muradullayevasevinch/CLionProjects/lab2CCC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/muradullayevasevinch/CLionProjects/lab2CCC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
