@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/muradullayevasevinch/CLionProjects/lab4/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/muradullayevasevinch/CLionProjects/lab4 -g -std=gnu99 -arch arm64 -fcolor-diagnostics -o CMakeFiles/lab4.dir/main.c.o -c /Users/muradullayevasevinch/CLionProjects/lab4/main.c",
+  "file": "/Users/muradullayevasevinch/CLionProjects/lab4/main.c",
+  "output": "/Users/muradullayevasevinch/CLionProjects/lab4/cmake-build-debug/CMakeFiles/lab4.dir/main.c.o"
+},
+{
+  "directory": "/Users/muradullayevasevinch/CLionProjects/lab4/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/muradullayevasevinch/CLionProjects/lab4 -g -std=gnu99 -arch arm64 -fcolor-diagnostics -o CMakeFiles/lab4.dir/triangle.c.o -c /Users/muradullayevasevinch/CLionProjects/lab4/triangle.c",
+  "file": "/Users/muradullayevasevinch/CLionProjects/lab4/triangle.c",
+  "output": "/Users/muradullayevasevinch/CLionProjects/lab4/cmake-build-debug/CMakeFiles/lab4.dir/triangle.c.o"
+}
+]
