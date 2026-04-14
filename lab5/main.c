@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "matrix_ops.h"
-#include <locale.h>
 
 int main() {
     int n;
     char op;
     printf(" Введите размер квадратных матриц n: ");
     scanf("%d", &n);
+    double **C;
 
-    double **A = (double**)malloc(n * sizeof(double*));
+// выделяю память под массив указателей на строки
+    double **A = (double**)malloc(n * sizeof(double*)); // для массива указателей
     for (int i = 0; i < n; i++) {
-        A[i] = (double*)malloc(n * sizeof(double));
+        A[i] = (double*)malloc(n * sizeof(double)); // для массива чисел
     }
 
     double **B = (double**)malloc(n * sizeof(double*));
@@ -39,11 +40,17 @@ int main() {
             scanf("%lf", &B[i][j]);
         }
     }
-
     printf("Введите операцию (+,-,*): ");
     scanf(" %c", &op);
-
-    double **C = matrix_operation(A, B, n, op);
+    if (op == '+'){
+        C = matrix_sum(A,B, n);
+    }
+    else if (op == '-'){
+        C = matrix_min(A,B, n);
+    }
+    else if (op == '*'){
+        C = matrix_umn(A,B, n);
+    }
 
     printf ("\n Матрица - результат:\n ");
     for (int i = 0; i < n; i++) {
