@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     FILE *in = fopen("people.txt", "r");
@@ -7,7 +8,7 @@ int main() {
     int god;
 
     while (fscanf(in, "%s %s %s %d", fam, im, ot, &god) == 4) {
-        if ( god > 1980) {
+        if ( god > 1980 && strncmp(im, "А", 1) == 0) {
             fprintf(out, "%s %s %s %d\n", fam, im, ot, god);
         }
     }
