@@ -1,0 +1,8 @@
+Mikhailova Elena     1985 F 1.60
+Sidorova Anna        1995 F 1.65
+Smirnova Olga        1988 F 1.68
+Kuznetsov Alex       1985 M 1.70
+Ivanov Ivan          1990 M 1.75
+Fedorov Andrey       1995 M 1.78
+Petrov Petr          1985 M 1.80
+Vasiliev Dmitry      1992 M 1.82
