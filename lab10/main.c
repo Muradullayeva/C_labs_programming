@@ -29,7 +29,7 @@ int main() {
     }
 
     int max_value = MAX_ARRAY(numbers, count);
-    
+
     printf (" Максимальное число: %d", max_value);
     return 0;
 }
