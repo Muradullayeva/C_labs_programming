@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/muradullayevasevinch/CLionProjects/lab11/cmake-build-debug",
+  "command": "/usr/bin/cc -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o CMakeFiles/lab11.dir/main.c.o -c /Users/muradullayevasevinch/CLionProjects/lab11/main.c",
+  "file": "/Users/muradullayevasevinch/CLionProjects/lab11/main.c",
+  "output": "/Users/muradullayevasevinch/CLionProjects/lab11/cmake-build-debug/CMakeFiles/lab11.dir/main.c.o"
+},
+{
+  "directory": "/Users/muradullayevasevinch/CLionProjects/lab11/cmake-build-debug",
+  "command": "/usr/bin/cc -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o CMakeFiles/lab11.dir/functions.c.o -c /Users/muradullayevasevinch/CLionProjects/lab11/functions.c",
+  "file": "/Users/muradullayevasevinch/CLionProjects/lab11/functions.c",
+  "output": "/Users/muradullayevasevinch/CLionProjects/lab11/cmake-build-debug/CMakeFiles/lab11.dir/functions.c.o"
+}
+]
