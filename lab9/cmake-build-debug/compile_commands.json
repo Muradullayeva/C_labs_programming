@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/muradullayevasevinch/CLionProjects/lab9/cmake-build-debug",
-  "command": "/usr/bin/cc -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o CMakeFiles/lab9.dir/main.c.o -c /Users/muradullayevasevinch/CLionProjects/lab9/main.c",
-  "file": "/Users/muradullayevasevinch/CLionProjects/lab9/main.c",
-  "output": "/Users/muradullayevasevinch/CLionProjects/lab9/cmake-build-debug/CMakeFiles/lab9.dir/main.c.o"
-}
-]
