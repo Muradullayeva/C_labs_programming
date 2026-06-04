@@ -2,35 +2,48 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define MAX_ARRAY(arr, n) ({ \
-    int max = (arr)[0];\
-    for (int i = 1; i < (n); i++){\
-       if ((arr)[i]> max)\
-          max = (arr)[i];\
-    }\
-    max;\
-})
-
 int main() {
     char input[1000];
-    int numbers [100];
+    int numbers[100];
     int count = 0;
-    printf(" Введите числа через пробел: ");
-    if  (fgets(input, sizeof (input), stdin) == NULL) {
-        printf (" Ошибка ввода");
-        return 1;
-    }
+    int sum = 0;
+    int max;
+
+    printf("Введите числа через пробел: ");
+
+    // Ввод строки
+    fgets(input, sizeof(input), stdin);
+
+    // Разбиваем строку на числа
     char *token = strtok(input, " \n");
     while (token != NULL && count < 100) {
-        int num = atoi(token);
-        numbers[count] = num;
+        numbers[count] = atoi(token);
         count++;
         token = strtok(NULL, " \n");
     }
 
-    int max_value = MAX_ARRAY(numbers, count);
+    // Проверка: есть ли числа
+    if (count == 0) {
+        printf("Числа не введены!\n");
+        return 1;
+    }
 
-    printf (" Максимальное число: %d", max_value);
+    // Находим максимум и сумму
+    max = numbers[0];
+    for (int i = 0; i < count; i++) {
+        if (numbers[i] > max) {
+            max = numbers[i];
+        }
+        sum = sum + numbers[i];
+    }
+
+    // Среднее арифметическое
+    double average = (double)sum / count;
+
+    // Вывод результатов
+    printf("Максимальное число: %d\n", max);
+    printf("Среднее арифметическое: %.2f\n", average);
+
     return 0;
 }
 
