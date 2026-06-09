@@ -1,0 +1,3 @@
+/Users/muradullayevasevinch/CLionProjects/lab6_alg.C/cmake-build-debug/CMakeFiles/lab6_alg_C.dir
+/Users/muradullayevasevinch/CLionProjects/lab6_alg.C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/muradullayevasevinch/CLionProjects/lab6_alg.C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
