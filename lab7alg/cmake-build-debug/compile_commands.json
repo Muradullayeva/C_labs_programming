@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/muradullayevasevinch/CLionProjects/lab7alg/cmake-build-debug",
+  "command": "/usr/bin/cc -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o CMakeFiles/lab7alg.dir/main.c.o -c /Users/muradullayevasevinch/CLionProjects/lab7alg/main.c",
+  "file": "/Users/muradullayevasevinch/CLionProjects/lab7alg/main.c",
+  "output": "/Users/muradullayevasevinch/CLionProjects/lab7alg/cmake-build-debug/CMakeFiles/lab7alg.dir/main.c.o"
+}
+]
